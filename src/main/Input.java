@@ -1,10 +1,12 @@
+// Get mouse inputs and mouse location for getting the pixel color at that location
+
 package main;
 
 import java.awt.MouseInfo;
 import java.awt.Point;
 import java.awt.PointerInfo;
 
-public class Input {
+public class Input {	
 	private App app;
 	private PointerInfo mouseLoc;
 	Point m;
