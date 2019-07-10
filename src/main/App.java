@@ -52,6 +52,8 @@ public class App implements Runnable {
 			// Get time at start of loop
 			firstTime = System.nanoTime() / 1000000000.0;
 			
+			System.out.println(unprocessedTime);
+			
 			// Get how much time has passed from last frame to this frame
 			passedTime = firstTime - lastTime;
 			lastTime = firstTime;
